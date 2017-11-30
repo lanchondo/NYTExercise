@@ -32,23 +32,23 @@
     <div class="row">
       <div class="col-sm-12">
         <br>
-        <!-- First panel is for handling the search parameters -->
+        <!-- Panel Heading -->
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
           </div>
           <div class="panel-body">
 
-            <!-- Here we create an HTML Form for handling the inputs-->
+            <!-- form handling imputs-->
             <form role="form">
 
-              <!-- Here we create the text box for capturing the search term-->
+              <!-- Search text box -->
               <div class="form-group">
                 <label for="search">Search Term:</label>
                 <input type="text" class="form-control" id="search-term">
               </div>
 
-              <!-- Here we capture the number of records that the user wants to retrieve  -->
+              <!-- How many articles we want to pull -->
               <div class="form-group">
                 <label for="pwd">Number of Records to Retrieve:</label>
                 <select class="form-control" id="num-records-select">
@@ -59,7 +59,7 @@
 						</select>
               </div>
 
-              <!-- Here we capture the Start Year Parameter-->
+              <!-- Search Buttons-->
               <div class="form-group">
                 <label for="start-year">Start Year (Optional):</label>
                 <input type="text" class="form-control" id="start-year" placeholder="YYYY">
@@ -71,7 +71,7 @@
                 <input type="text" class="form-control" id="end-year" placeholder="YYYY">
               </div>
 
-              <!-- Here we have our final submit button -->
+              <!-- Search and Clear Results Buttons -->
               <button type="submit" class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Search</button>
               <button type="button" class="btn btn-default" id="clear-all"><i class="fa fa-trash"></i> Clear Results</button>
 
@@ -118,7 +118,7 @@
   <script src="https://code.jquery.com/jquery.js"></script>
 
   <!-- Code to the JavaScript File -->
-  <script src="NYTCode.js"></script>
+  <script src="nyt.js"></script>
 
 </body>
 
